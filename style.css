@@ -35,7 +35,6 @@ header {
   align-items: center;
   text-transform: capitalize;
   color: red;
-  background-color: rgb(0, 4, 21);
 }
 
 #WeatherConditions {
