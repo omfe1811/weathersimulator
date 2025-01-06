@@ -1,0 +1,17 @@
+Challenge Questions:
+1. How can you ensure the weather updates automatically at regular intervals?
+Using setInterval(updateWeather, 180000) to call updateWeather function and display the results every 3minutes
+2. What is the best way to generate random values for the weather properties?
+Using Math.floor(Math.random() * <max number>)
+3. How can you dynamically check for extreme weather conditions and update warnings?
+using if function checking for the extreme conditions and updating a message on the website 
+if (
+      currentWeather.condition === "Snow" &&
+      currentWeather.temperature <= -10
+    ) {
+      document.getElementById(
+        "weather-animation"
+      ).innerText = `Do not go outside!`;
+    
+4. How will you structure the CSS so the warning message stands out?
+I added dark background and set the font color to red
