@@ -33,6 +33,8 @@ function updateWeather() {
       document.getElementById(
         "weather-animation"
       ).innerText = `Do not go outside!`;
+      document.getElementById("weather-animation").style.backgroundColor =
+        "black";
     }
     const mainContainer = document.getElementById("main-container"); // Grab reference to main container
 
